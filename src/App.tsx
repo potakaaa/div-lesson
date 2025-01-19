@@ -13,37 +13,45 @@ const App = () => {
         <div id="group-indiv-div" className="flex flex-row size-full space-x-2">
           <div
             id="indiv-div"
-            className="border border-white p-4 rounded-md w-full text-white text-5xl font-bold flex justify-center items-center"
+            className="border border-white p-4 rounded-md w-full  flex justify-center items-center"
           >
-            Hello Im Gerald
+            <h1 className="text-white text-2xl md:text-5xl xl:text-7xl font-bold">
+              Hello Im Gerald
+            </h1>
           </div>
         </div>
 
         {/* 2nd DIV */}
-        <div id="group-indiv-div" className="flex flex-row size-full space-x-2">
+        <div
+          id="group-indiv-div"
+          className="flex flex-col md:flex-row size-full md:space-x-2"
+        >
           <div
             id="indiv-div"
-            className="border border-white p-4 rounded-md w-full"
+            className="border border-white p-4 rounded-md w-full flex-[2]"
           ></div>
           <div
             id="indiv-div"
-            className="border border-white p-4 rounded-md w-full"
+            className="border border-white p-4 rounded-md w-full flex flex-[5]"
           ></div>
         </div>
 
         {/* 3rd DIV */}
-        <div id="group-indiv-div" className="flex flex-row size-full space-x-2">
+        <div
+          id="group-indiv-div"
+          className="flex flex-col md:flex-row size-full md:space-x-2"
+        >
           <div
             id="indiv-div"
-            className="border border-white p-4 rounded-md w-full flex-[1] flex hover:flex-[3]"
+            className="border border-white p-4 rounded-md w-full flex-[1] flex hover:flex-[3] transition-all duration-500"
           ></div>
           <div
             id="indiv-div"
-            className="border border-white p-4 rounded-md w-full flex-[1] flex hover:flex-[3]"
+            className="border border-white p-4 rounded-md w-full flex-[1] flex hover:flex-[3] transition-all duration-500"
           ></div>
           <div
             id="indiv-div"
-            className="border border-white p-4 rounded-md w-full flex-[1] flex hover:flex-[3]"
+            className="border border-white p-4 rounded-md w-full flex-[1] flex hover:flex-[3] transition-all duration-500"
           ></div>
         </div>
       </div>
