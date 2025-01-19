@@ -35,15 +35,15 @@ const App = () => {
         <div id="group-indiv-div" className="flex flex-row size-full space-x-2">
           <div
             id="indiv-div"
-            className="border border-white p-4 rounded-md w-full"
+            className="border border-white p-4 rounded-md w-full flex-[1] flex hover:flex-[3]"
           ></div>
           <div
             id="indiv-div"
-            className="border border-white p-4 rounded-md w-full"
+            className="border border-white p-4 rounded-md w-full flex-[1] flex hover:flex-[3]"
           ></div>
           <div
             id="indiv-div"
-            className="border border-white p-4 rounded-md w-full"
+            className="border border-white p-4 rounded-md w-full flex-[1] flex hover:flex-[3]"
           ></div>
         </div>
       </div>
